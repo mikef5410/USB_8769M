@@ -1,0 +1,131 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "05725277-f916-41de-9b08-3e24bb187c9c")
+	(paper "A4")
+	(title_block
+		(title "Keysight 8769M USB Controller")
+		(rev "A")
+	)
+	(lib_symbols)
+	(sheet
+		(at 21.59 24.13)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83c19abe-8982-4cec-b306-eb0680e2921a")
+		(property "Sheetname" "Power"
+			(at 21.59 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 21.59 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB_8769M"
+				(path "/05725277-f916-41de-9b08-3e24bb187c9c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 24.13)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a7dd05cd-dc8b-4c10-b82d-5446c7ae4287")
+		(property "Sheetname" "uController"
+			(at 46.99 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uController.kicad_sch"
+			(at 46.99 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB_8769M"
+				(path "/05725277-f916-41de-9b08-3e24bb187c9c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 24.13)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd317254-8792-4ab3-b557-b72d3ef89f08")
+		(property "Sheetname" "AttenIFace"
+			(at 80.01 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AttenIFace.kicad_sch"
+			(at 80.01 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB_8769M"
+				(path "/05725277-f916-41de-9b08-3e24bb187c9c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
