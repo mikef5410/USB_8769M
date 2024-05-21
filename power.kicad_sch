@@ -2492,7 +2492,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1779"
+		(property "LCSC" "C106859"
 			(at 91.44 124.46 90)
 			(effects
 				(font
@@ -4496,7 +4496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 109.982 74.93 90)
 			(effects
 				(font
