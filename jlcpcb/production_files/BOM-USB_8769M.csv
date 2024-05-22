@@ -1,4 +1,5 @@
 Comment,Designator,Footprint,LCSC
+4.7u,"C17,C5,C7",C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C106859
 LP2985-3.3,U2,SOT-23-5,C109382
 Conn_02x07_Odd_Even,J3,IDC-Header_2x07_P2.54mm_Vertical,C11215
 MMZ1608Y102B,FB1,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C114771
@@ -10,7 +11,7 @@ USB_B_Micro,J1,USB_Micro-B_Amphenol_10118193-0001LF_Horizontal,C132562
 30pF,"C15,C16",C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C1658
 10u,L1,L_Changjiang_FNR4030S,C167879
 0,"R1,R6",R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C17168
-4.7u,"C17,C3,C5,C7",C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C1779
+4.7u,C3,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C1779
 100,"R11,R13,R14,R15,R16,R9",R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C25076
 10k,"R10,R12,R7,R8",R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C25744
 118k,R4,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C25748
