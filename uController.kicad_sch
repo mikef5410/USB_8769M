@@ -4091,6 +4091,12 @@
 		(uuid "142c5e90-37aa-4d8d-a0bb-a21d6df88ca2")
 	)
 	(junction
+		(at 189.23 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "172a0111-7d6c-4fad-95cc-0353880bc064")
+	)
+	(junction
 		(at 144.78 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4612,6 +4618,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 105.41) (xy 195.58 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b0033d-d303-4744-b929-c6373d8c0f41")
+	)
+	(wire
+		(pts
 			(xy 185.42 80.01) (xy 190.5 80.01)
 		)
 		(stroke
@@ -4872,6 +4888,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 105.41) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be83aa8-a63b-49df-867f-226d80e98c06")
+	)
+	(wire
+		(pts
 			(xy 153.67 38.1) (xy 153.67 49.53)
 		)
 		(stroke
@@ -4939,6 +4965,16 @@
 			(type default)
 		)
 		(uuid "57438fbe-a403-42e1-9991-85305ca3994d")
+	)
+	(wire
+		(pts
+			(xy 205.74 106.68) (xy 205.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574a547c-d0f3-4d72-9a1d-621b29ae9104")
 	)
 	(wire
 		(pts
@@ -5870,6 +5906,19 @@
 		)
 		(uuid "ff8cb796-ef0f-4271-8a17-3459b39273a3")
 	)
+	(rectangle
+		(start 208.28 95.25)
+		(end 257.81 110.49)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 160 160 160 1)
+		)
+		(uuid cd4bbc1d-b96d-4f2d-9b27-96331e031a3e)
+	)
 	(text "RESET"
 		(exclude_from_sim no)
 		(at 94.234 48.514 0)
@@ -5889,6 +5938,19 @@
 			)
 		)
 		(uuid "5191c0df-8f1a-4631-9179-434d31cd7ce9")
+	)
+	(text "ERRATA:\nBOOT1 should be held LOW for DFU to work.\nPCB has NOT been updated!"
+		(exclude_from_sim no)
+		(at 231.902 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "eadb6fe1-eb5a-42b6-a6b8-6b35fac539e5")
 	)
 	(label "SPI2_MOSI"
 		(at 58.42 149.86 0)
@@ -7250,6 +7312,72 @@
 			(project "USB_8769M"
 				(path "/05725277-f916-41de-9b08-3e24bb187c9c/a7dd05cd-dc8b-4c10-b82d-5446c7ae4287"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2429cf71-44ad-4cac-ac13-618f63abe608")
+		(property "Reference" "#PWR049"
+			(at 205.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.708 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "457f341f-0503-44e3-b8d3-6f297f579346")
+		)
+		(instances
+			(project "USB_8769M"
+				(path "/05725277-f916-41de-9b08-3e24bb187c9c/a7dd05cd-dc8b-4c10-b82d-5446c7ae4287"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9972,6 +10100,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 199.39 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aecea0e3-59a7-495a-b193-f77c8b30713f")
+		(property "Reference" "R17"
+			(at 199.39 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 199.39 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 199.39 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b99f5b82-1491-4086-8316-11adc94e5fa6")
+		)
+		(pin "2"
+			(uuid "2ead0bd8-515a-4e38-a261-1fd2ac816917")
+		)
+		(instances
+			(project "USB_8769M"
+				(path "/05725277-f916-41de-9b08-3e24bb187c9c/a7dd05cd-dc8b-4c10-b82d-5446c7ae4287"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 27.94 0)
 		(unit 1)
@@ -10266,7 +10471,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dee14487-67cb-4599-862b-5812b26c8320")
 		(property "Reference" "R12"
